@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/im2">
+
+
+    <TextView
+        android:id="@+id/Alergtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Our Allergist"
+        android:textColor="@color/aqua"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Alergname"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:freezesText="false"
+        android:gravity="fill_vertical"
+        android:hint="Isabella Bella"
+        android:textColor="#F8F4F4"
+        android:textColorHint="#FDFDFD"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/Alergtxt"
+        app:layout_constraintStart_toStartOf="@+id/Alergtxt"
+        app:layout_constraintTop_toBottomOf="@+id/Alergtxt" />
+
+    <TextView
+        android:id="@+id/Alergtnum"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:gravity="fill_vertical"
+        android:hint="3084027183"
+        android:textColor="#F8F4F4"
+        android:textColorHint="#FDFDFD"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/Alergname"
+        app:layout_constraintStart_toStartOf="@+id/Alergname"
+        app:layout_constraintTop_toBottomOf="@+id/Alergname" />
+
+    <TextView
+        android:id="@+id/Alergfees"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:gravity="fill_vertical"
+        android:hint="29$"
+        android:textColor="#F8F4F4"
+        android:textColorHint="#FDFDFD"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/Alergtnum"
+        app:layout_constraintStart_toStartOf="@+id/Alergtnum"
+        app:layout_constraintTop_toBottomOf="@+id/Alergtnum" />
+
+    <Button
+        android:id="@+id/Alergbook"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="@color/deep_sky_blue"
+        android:fontFamily="sans-serif-medium"
+        android:text="Book Now"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Alselectbtn1"
+        style="?android:spinnerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:onClick="openTimePicker"
+        android:text="10/05/2023"
+        android:textColor="#F61807"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/Alselecttxt2"
+        app:layout_constraintStart_toStartOf="@+id/Alselecttxt2"
+        app:layout_constraintTop_toBottomOf="@+id/Alselecttxt2" />
+
+    <TextView
+        android:id="@+id/Alselecttxt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Select Date"
+        android:textColor="@color/aqua"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/Alergfees"
+        app:layout_constraintStart_toStartOf="@+id/Alergfees"
+        app:layout_constraintTop_toBottomOf="@+id/Alergfees" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

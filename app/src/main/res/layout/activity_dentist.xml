@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/im2">
+
+
+    <TextView
+        android:id="@+id/Denttxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Our Dentist"
+        android:textColor="@color/aqua"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Dentname"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:gravity="fill_vertical"
+        android:hint="Alexander Alex"
+        android:textColor="#F8F4F4"
+        android:textColorHint="#FDFDFD"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/Denttxt"
+        app:layout_constraintStart_toStartOf="@+id/Denttxt"
+        app:layout_constraintTop_toBottomOf="@+id/Denttxt" />
+
+    <TextView
+        android:id="@+id/dentnum"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:gravity="fill_vertical"
+        android:hint="3029172817"
+        android:textColor="#F8F4F4"
+        android:textColorHint="#FDFDFD"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/Dentname"
+        app:layout_constraintStart_toStartOf="@+id/Dentname"
+        app:layout_constraintTop_toBottomOf="@+id/Dentname" />
+
+    <TextView
+        android:id="@+id/Dentfees"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:gravity="fill_vertical"
+        android:hint="39$"
+        android:textColor="#F8F4F4"
+        android:textColorHint="#FDFDFD"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/dentnum"
+        app:layout_constraintStart_toStartOf="@+id/dentnum"
+        app:layout_constraintTop_toBottomOf="@+id/dentnum" />
+
+    <Button
+        android:id="@+id/Dentbook"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="@color/deep_sky_blue"
+        android:fontFamily="sans-serif-medium"
+        android:text="Book Now"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Deselectbtn1"
+        style="?android:spinnerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:onClick="openTimePicker"
+        android:text="10/05/2023"
+        android:textColor="#F61807"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/Deselecttxt2"
+        app:layout_constraintStart_toStartOf="@+id/Deselecttxt2"
+        app:layout_constraintTop_toBottomOf="@+id/Deselecttxt2" />
+
+    <TextView
+        android:id="@+id/Deselecttxt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Select Date"
+        android:textColor="@color/aqua"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/Dentfees"
+        app:layout_constraintStart_toStartOf="@+id/Dentfees"
+        app:layout_constraintTop_toBottomOf="@+id/Dentfees" />
+</androidx.constraintlayout.widget.ConstraintLayout>

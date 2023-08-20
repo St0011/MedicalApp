@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/im2"
+
+    >
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Medical app"
+        android:textColor="#FDFDFD"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Start with your registration"
+        android:textColor="#FDFDFD"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/txt1"
+        app:layout_constraintStart_toStartOf="@+id/txt1"
+        app:layout_constraintTop_toBottomOf="@+id/txt1" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/edittext"
+        android:drawableLeft="@android:drawable/ic_menu_myplaces"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:gravity="fill_vertical"
+        android:hint="Name"
+        android:inputType="text"
+        android:textColor="#F8F4F4"
+        android:textColorHint="#FDFDFD"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/txt2"
+        app:layout_constraintStart_toStartOf="@+id/txt2"
+        app:layout_constraintTop_toBottomOf="@+id/txt2" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/edittext"
+        android:drawableLeft="@android:drawable/ic_lock_lock"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:gravity="fill_vertical"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#F8F4F4"
+        android:textColorHint="#FDFDFD"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/name"
+        app:layout_constraintStart_toStartOf="@+id/name"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/edittext"
+        android:drawableLeft="@android:drawable/sym_action_email"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:gravity="fill_vertical"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#F8F4F4"
+        android:textColorHint="#FDFDFD"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/pass"
+        app:layout_constraintStart_toStartOf="@+id/pass"
+        app:layout_constraintTop_toBottomOf="@+id/pass" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/deep_sky_blue"
+        android:fontFamily="sans-serif-medium"
+
+        android:text="Register"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/email"
+        app:layout_constraintStart_toStartOf="@+id/email"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="163dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:clickable="true"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Already have an account?"
+        android:textColor="#FBFAFA"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn"
+        app:layout_constraintStart_toStartOf="@+id/btn"
+        app:layout_constraintTop_toBottomOf="@+id/btn" />
+</androidx.constraintlayout.widget.ConstraintLayout>

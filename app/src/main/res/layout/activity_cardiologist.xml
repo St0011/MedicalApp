@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/im2">
+
+
+    <TextView
+        android:id="@+id/Catxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Our Cardiologist"
+        android:textColor="@color/aqua"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Caname"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:freezesText="false"
+        android:gravity="fill_vertical"
+        android:hint="Benjamin Ben"
+        android:textColor="#F8F4F4"
+        android:textColorHint="#FDFDFD"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/Catxt"
+        app:layout_constraintStart_toStartOf="@+id/Catxt"
+        app:layout_constraintTop_toBottomOf="@+id/Catxt" />
+
+    <TextView
+        android:id="@+id/Canum"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:gravity="fill_vertical"
+        android:hint="3092019481"
+        android:textColor="#F8F4F4"
+        android:textColorHint="#FDFDFD"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/Caname"
+        app:layout_constraintStart_toStartOf="@+id/Caname"
+        app:layout_constraintTop_toBottomOf="@+id/Caname" />
+
+    <TextView
+        android:id="@+id/Cafees"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:gravity="fill_vertical"
+        android:hint="49$"
+        android:textColor="#F8F4F4"
+        android:textColorHint="#FDFDFD"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/Canum"
+        app:layout_constraintStart_toStartOf="@+id/Canum"
+        app:layout_constraintTop_toBottomOf="@+id/Canum" />
+
+    <Button
+        android:id="@+id/Cabook"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="@color/deep_sky_blue"
+        android:fontFamily="sans-serif-medium"
+        android:text="Book Now"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Caselectbtn1"
+        style="?android:spinnerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:onClick="openTimePicker"
+        android:text="10/05/2023"
+        android:textColor="#F61807"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/Caselecttxt2"
+        app:layout_constraintStart_toStartOf="@+id/Caselecttxt2"
+        app:layout_constraintTop_toBottomOf="@+id/Caselecttxt2" />
+
+    <TextView
+        android:id="@+id/Caselecttxt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Select Date"
+        android:textColor="@color/aqua"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/Cafees"
+        app:layout_constraintStart_toStartOf="@+id/Cafees"
+        app:layout_constraintTop_toBottomOf="@+id/Cafees" />
+</androidx.constraintlayout.widget.ConstraintLayout>

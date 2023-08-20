@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/im2">
+
+
+    <TextView
+        android:id="@+id/Petxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Our Pediatrician"
+        android:textColor="@color/aqua"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Pename"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:freezesText="false"
+        android:gravity="fill_vertical"
+        android:hint="Samantha Sam"
+        android:textColor="#F8F4F4"
+        android:textColorHint="#FDFDFD"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/Petxt"
+        app:layout_constraintStart_toStartOf="@+id/Petxt"
+        app:layout_constraintTop_toBottomOf="@+id/Petxt" />
+
+    <TextView
+        android:id="@+id/Penum"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:gravity="fill_vertical"
+        android:hint="3082715406"
+        android:textColor="#F8F4F4"
+        android:textColorHint="#FDFDFD"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/Pename"
+        app:layout_constraintStart_toStartOf="@+id/Pename"
+        app:layout_constraintTop_toBottomOf="@+id/Pename" />
+
+    <TextView
+        android:id="@+id/Pefees"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:gravity="fill_vertical"
+        android:hint="19$"
+        android:textColor="#F8F4F4"
+        android:textColorHint="#FDFDFD"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/Penum"
+        app:layout_constraintStart_toStartOf="@+id/Penum"
+        app:layout_constraintTop_toBottomOf="@+id/Penum" />
+
+    <Button
+        android:id="@+id/Pebook"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="@color/deep_sky_blue"
+        android:fontFamily="sans-serif-medium"
+        android:text="Book Now"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Peselectbtn1"
+        style="?android:spinnerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:onClick="openTimePicker"
+        android:text="10/05/2023"
+        android:textColor="#F61807"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/Peselecttxt2"
+        app:layout_constraintStart_toStartOf="@+id/Peselecttxt2"
+        app:layout_constraintTop_toBottomOf="@+id/Peselecttxt2" />
+
+    <TextView
+        android:id="@+id/Peselecttxt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Select Date"
+        android:textColor="@color/aqua"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/Pefees"
+        app:layout_constraintStart_toStartOf="@+id/Pefees"
+        app:layout_constraintTop_toBottomOf="@+id/Pefees" />
+</androidx.constraintlayout.widget.ConstraintLayout>
