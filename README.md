@@ -1,5 +1,7 @@
 # MedicalApp
 
+**HOW TO RUN THE APP ON YOUR PC
+
 1)Download the Zip File
 
 2)Extract all files
