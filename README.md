@@ -15,6 +15,12 @@
 
 **HOW TO NAVIGATE THE APP
 
-1)Firstly you will see this on your phone
+1)This is the first page of the app
 
 ![Running Devices - Scanner_App 9_19_2023 11_14_40 AM](https://github.com/St0011/MedicalApp/assets/59256689/e3898963-f48c-448a-8ef3-3a5939ee63d2)
+
+2)If you want to scan a QRCODE (PRESS THE SCAN BUTTON)
+
+![Running Devices - Scanner_App 9_19_2023 11_15_17 AM](https://github.com/St0011/MedicalApp/assets/59256689/bc8c3e3e-ddbc-4db1-acec-fa74fc99e97b)
+
+
