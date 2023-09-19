@@ -1,5 +1,5 @@
 # MedicalApp
-HOW TO RUN THE APP ON YOUR PC
+**HOW TO RUN THE APP ON YOUR PC
 
 1)Download the Zip File
 
@@ -13,5 +13,6 @@ HOW TO RUN THE APP ON YOUR PC
 
 6)Then Run the app on Physical or Virtual device
 
-
-![6f62b7b195363b53a9148b249b557b21](https://github.com/St0011/MedicalApp/assets/59256689/7869598a-f5be-4714-ab3a-c7f800cb5ac2)
+**HOW TO NAVIGATE THE APP
+1)When you run the app you will see this on your phone
+![Running Devices - Scanner_App 9_19_2023 11_14_40 AM](https://github.com/St0011/MedicalApp/assets/59256689/335f5bf2-9ce0-4b78-939f-f43f95c99cfb)
