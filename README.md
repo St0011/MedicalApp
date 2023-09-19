@@ -31,31 +31,35 @@
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-3)When you sign in/up this is the main page of the app
+3)If you want to log out (PRESS THE LOGOUT BUTTON)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4)When you sign in/up this is the main page of the app
 
 ![Running Devices - MedicalApp 9_19_2023 11_50_47 AM](https://github.com/St0011/MedicalApp/assets/59256689/0dc4b2d4-0510-41e0-ac01-e3cad9bd798c)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-4)If you want to learn what the app provides (PRESS THE INFO BUTTON)
+5)If you want to learn what the app provides (PRESS THE INFO BUTTON)
 
 ![MedicalApp 9_19_2023 11_51_13 AM](https://github.com/St0011/MedicalApp/assets/59256689/4f102aab-dabd-40c5-98a4-68655b9afe89)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-5)If you want to read Articles about Health (PRESS THE HEALTH ARTICLE BUTTON)
+6)If you want to read Articles about Health (PRESS THE HEALTH ARTICLE BUTTON)
 
 ![image](https://github.com/St0011/MedicalApp/assets/59256689/16467907-dc87-4073-8f73-3f8ba9a4ec9b)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-6)If you want to choose a doctor (PRESS THE BOOK YOUR DOCTOR BUTTON)
+7)If you want to choose a doctor (PRESS THE BOOK YOUR DOCTOR BUTTON)
 
 ![MedicalApp 9_19_2023 11_50_57 AM](https://github.com/St0011/MedicalApp/assets/59256689/d0429e4e-4c15-4f0c-9602-b4b2936681dc)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-7)Here you can choose 1 of the 4 doctors. Then book the date you want
+8)Here you can choose 1 of the 4 doctors. Then book the date you want
 
 ![MedicalApp 9_19_2023 11_51_22 AM](https://github.com/St0011/MedicalApp/assets/59256689/72ed03e0-4875-4a8f-b94c-d7cf2a648511)
 
