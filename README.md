@@ -13,6 +13,7 @@
 
 6)Then Run the app on Physical or Virtual device
 
+
 **HOW TO NAVIGATE THE APP
 
 1)This is the first page of the app
@@ -22,5 +23,10 @@
 2)If you want to scan a QRCODE (PRESS THE SCAN BUTTON)
 
 ![Running Devices - Scanner_App 9_19_2023 11_15_17 AM](https://github.com/St0011/MedicalApp/assets/59256689/bc8c3e3e-ddbc-4db1-acec-fa74fc99e97b)
+
+3)If you want to see all the saved QRCODES (PRESS THE BUTTON SAVED)
+
+![Running Devices - Scanner_App 9_19_2023 11_15_25 AM](https://github.com/St0011/MedicalApp/assets/59256689/940c2c0b-3856-4d2e-ac6d-f8f0dfdfeb51)
+
 
 
