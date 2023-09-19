@@ -14,6 +14,7 @@
 6)Then Run the app on Physical or Virtual device
 
 
+
 **HOW TO NAVIGATE THE APP
 
 1)This is the first page of the app
