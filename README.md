@@ -31,13 +31,13 @@
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-3)If you want to log out (PRESS THE LOGOUT BUTTON)
+3)When you sign in/up this is the main page of the app
+
+![Running Devices - MedicalApp 9_19_2023 11_50_47 AM](https://github.com/St0011/MedicalApp/assets/59256689/0dc4b2d4-0510-41e0-ac01-e3cad9bd798c)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-4)When you sign in/up this is the main page of the app
-
-![Running Devices - MedicalApp 9_19_2023 11_50_47 AM](https://github.com/St0011/MedicalApp/assets/59256689/0dc4b2d4-0510-41e0-ac01-e3cad9bd798c)
+4)If you want to log out (PRESS THE LOGOUT BUTTON)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
