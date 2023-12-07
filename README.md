@@ -1,65 +1,61 @@
 # MedicalApp
 
-**HOW TO RUN THE APP ON YOUR PC
+
+
+**HOW TO RUN THE APP
 
 1)Download the Zip File
 
-2)Extract all files
+2)Open Android Studio
 
-3)Open Android Studio
-
-4)Press the button (OPEN)
-
-5)Go to downloads->MedicalApp-master->MedicalApp-master (and press ok)
-
-6)Then Run the app on Physical or Virtual device
+3)Run the app on Physical or Virtual device
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 **HOW TO NAVIGATE THE APP
 
-1)This is the first page of the app (REGISTER IF YOU DONT HAVE AN ACCOUNT)
+1)This is the first page of the app 
 
 ![Running Devices - MedicalApp 9_19_2023 11_49_07 AM](https://github.com/St0011/MedicalApp/assets/59256689/b8061f10-cc90-4979-9948-312c5cca1f91)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-2)If you have an account press (Already have an account) and then Login with your email and password
+
 
 ![Running Devices - MedicalApp 9_19_2023 11_49_25 AM](https://github.com/St0011/MedicalApp/assets/59256689/99250e74-89b6-4268-87bc-5d8cc30ea47e)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-3)When you sign in/up this is the main page of the app
+2)When you sign in/up this is the main page of the app
 
 ![Running Devices - MedicalApp 9_19_2023 11_50_47 AM](https://github.com/St0011/MedicalApp/assets/59256689/0dc4b2d4-0510-41e0-ac01-e3cad9bd798c)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-4)If you want to log out (PRESS THE LOGOUT BUTTON)
+
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-5)If you want to learn what the app provides (PRESS THE INFO BUTTON)
+3)Here you can see what the app provides to customers 
 
 ![MedicalApp 9_19_2023 11_51_13 AM](https://github.com/St0011/MedicalApp/assets/59256689/4f102aab-dabd-40c5-98a4-68655b9afe89)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-6)If you want to read Articles about Health (PRESS THE HEALTH ARTICLE BUTTON)
+4)Here you can read articles about health
 
 ![image](https://github.com/St0011/MedicalApp/assets/59256689/16467907-dc87-4073-8f73-3f8ba9a4ec9b)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-7)If you want to choose a doctor (PRESS THE BOOK YOUR DOCTOR BUTTON)
+5)Choose you personal doctor
 
 ![MedicalApp 9_19_2023 11_50_57 AM](https://github.com/St0011/MedicalApp/assets/59256689/d0429e4e-4c15-4f0c-9602-b4b2936681dc)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-8)Here you can choose 1 of the 4 doctors. Then book the date you want
+6)Also you can book the date you want to visit your doctor
 
 ![MedicalApp 9_19_2023 11_51_22 AM](https://github.com/St0011/MedicalApp/assets/59256689/72ed03e0-4875-4a8f-b94c-d7cf2a648511)
 
