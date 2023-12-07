@@ -1,5 +1,9 @@
 # MedicalApp
 
+In this application the customers can register with their personal details.
+Τhey can browse and see what services it offers
+and finally make an appointment with their personal doctor.
+
 
 
 **HOW TO RUN THE APP
