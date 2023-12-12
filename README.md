@@ -1,8 +1,11 @@
 # MedicalApp
 
-In this application the customers can register with their personal details.
-Τhey can browse and see what services it offers
-and finally make an appointment with their personal doctor.
+This Android application seamlessly facilitates user registration, allowing customers to input their personal details.
+Navigating through the app, users can explore the range of services offered and, with utmost convenience,
+schedule appointments with their designated healthcare providers. 
+The app ensures the secure storage of all user-related data on Firebase, 
+guaranteeing privacy and reliability.
+Key Technologies: Android Studio, Firebase, Java
 
 
 
